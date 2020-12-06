@@ -2,4 +2,20 @@
 layout: body
 ---
 
-{% include hero_block.html section=section site=site %}
+{% include hero_block.html page=page site=site %}
+
+{% include services_block.html
+        block_id="services"
+        services=page.services_list
+        title=page.services_title
+        subtitle=page.services_subtitle %}
+
+{% include portfolio_block.html page=page site=site %}
+
+{% include services_block.html
+        block_id="profs"
+        services=page.profs_list
+        title=page.profs_title
+        subtitle=page.profs_subtitle %}
+
+{% include contact_block.html page=page site=site %}

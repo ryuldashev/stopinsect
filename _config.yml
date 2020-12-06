@@ -13,16 +13,16 @@ url: "https://stopinsect.uz"
 header_title: StopInsect - уничтожение насекомых
 menu:
    - title: Услуги
-     url: /services/
-   - title: Информация
-     url: /info/
-   - title: Контакты
-     url: /contact/
+     url: "#services"
+   - title: Преимущества
+     url: "#profs"
+   - title: +998 (90) 950-78-16
+     url: "tel:+998909507816"
 footer_content: © StopInsect.uz — уничтожение насекомых
 social:
    - url: "https://t.me/rus_k2"
      icon: fab fa-telegram
-   - url: "https://instagram.com/rus_k2"
+   - url: "https://instagram.com/ruslan_dezinfektor"
      icon: fab fa-instagram
    - url: "mailto:soul198555@gmail.com"
      icon: far fa-envelope
