@@ -11,9 +11,10 @@
         </p><!-- .site-logo -->
         {% endif %}
         {% if page.layout == 'home' or page.layout == 'blog' %}
-          <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header_title }}</a></h1>
+          <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header_title }}</a>
+            <span>{{ site.header_subtitle }}</span></h1>
         {% else %}
-          <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header_title }}</a></p>
+          <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header_title }}</a> {{ site.header_subtitle }}</p>
         {% endif %}
       </div><!-- .site-branding -->
       <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">

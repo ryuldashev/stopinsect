@@ -24,7 +24,7 @@
 }
 
 .site-title {
-  color: #fff;
+  color: #000;
   font-size: 1.22222rem;
   font-weight: bold;
   line-height: 1.2;
@@ -34,7 +34,7 @@
   a {
     background: _palette(accent);
     border: 0;
-    color: inherit !important;
+    color: #fff !important;
     display: inline-block;
     padding: 5px 10px;
   }
@@ -114,6 +114,12 @@
   #menu-open {
     display: block;
     margin-left: auto;
+  }
+
+  .site-title span {
+    display: block;
+    clear: left;
+    font-size: 1rem;
   }
 
   .site-navigation {
