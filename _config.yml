@@ -1,0 +1,35 @@
+title: StopInsect — уничтожение насекомых
+email: monitoringe@gmail.com
+description: >-
+  Компания «Stopinsekt» более 10 лет оказывает услуги по уничтожению насекомых и грызунов
+  в Ташкенте. Мы работаем с частными и корпоративными клиентами по высокоэффективной
+  Американской системе пест-контроля. За время своей деятельности нашими специалистами
+  были выполнены десятки тысяч заказов по дезинфекции в Ташкенте. Компания
+  предоставляет оптимальные условия для каждого заказчика.
+baseurl: ""
+url: "https://stopinsect.uz"
+
+
+header_title: StopInsect - уничтожение насекомых
+menu:
+   - title: Услуги
+     url: /services/
+   - title: Информация
+     url: /info/
+   - title: Контакты
+     url: /contacts/
+
+
+collections:
+  posts:
+    permalink: '/posts/:title/'
+
+
+exclude:
+- ".sass-cache/"
+- ".jekyll-cache/"
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- ".git"
+- ".idea"
