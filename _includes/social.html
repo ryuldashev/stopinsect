@@ -1,8 +1,8 @@
 <ul class="social-links">
-  {% for link in site.data.social.links %}
+  {% for link in site.social %}
   <li>
-    <a href="{{ link.url }}" target="_blank" rel="noopener"><span class="fab {{ link.icon }}"
-        aria-hidden="true"></span><span class="screen-reader-text">{{ link.title }}</span></a>
+    <a href="{{ link.url }}" target="_blank" rel="noopener"><span class="{{ link.icon }}"
+        aria-hidden="true"></span><span class="screen-reader-text">{{ link.icon }}</span></a>
   </li>
   {% endfor %}
 </ul><!-- .social-links -->

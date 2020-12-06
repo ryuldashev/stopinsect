@@ -17,8 +17,15 @@ menu:
    - title: Информация
      url: /info/
    - title: Контакты
-     url: /contacts/
-
+     url: /contact/
+footer_content: © StopInsect.uz — уничтожение насекомых
+social:
+   - url: "https://t.me/rus_k2"
+     icon: fab fa-telegram
+   - url: "https://instagram.com/rus_k2"
+     icon: fab fa-instagram
+   - url: "mailto:soul198555@gmail.com"
+     icon: far fa-envelope
 
 collections:
   posts:
