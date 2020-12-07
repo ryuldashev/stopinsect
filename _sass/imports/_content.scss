@@ -61,6 +61,19 @@
   }
 }
 
+.image-photo {
+  float: left;
+  width: 10vw;
+  margin-right: 1.5rem;
+}
+.image-photo img {
+  border: 1px solid #999;
+  padding: 5px;
+  border-radius: 100%;
+  max-width: 100%;
+}
+
+
 @media only screen and (min-width: 801px) {
   .post {
     margin-bottom: 5em;
