@@ -8,7 +8,10 @@ layout: body
         block_id="services"
         services=page.services_list
         title=page.services_title
-        subtitle=page.services_subtitle %}
+        subtitle=page.services_subtitle
+        image=page.hero_image
+%}
+
 
 {% include portfolio_block.html page=page site=site %}
 
@@ -16,7 +19,9 @@ layout: body
         block_id="profs"
         services=page.profs_list
         title=page.profs_title
-        subtitle=page.profs_subtitle %}
+        subtitle=page.profs_subtitle
+        text=page.guarantie
+%}
 
 <section id="{{ include.section.section_id }}" class="block text-block outer">
         <div class="inner">

@@ -25,6 +25,15 @@
           </div><!-- .service -->
           {% endfor %}
         </div><!-- .services-list -->
+
+        {% if include.image %}
+          <img src="{{ include.image }}" alt="">
+        {% endif%}
+
+        {% if include.text %}
+          {{ include.text|markdownify }}
+        {% endif%}
+
       </div><!-- .block-content -->
 
     </div><!-- .block-inside -->

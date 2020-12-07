@@ -14,28 +14,18 @@
 
     <div class="block-content">
       <div class="portfolio-feed layout-tiles">
-
-        <article class="post project">
-          <a href="#" class="post-link">
-            <div class="post-thumbnail">
-              <img class="thumbnail" src="/images/services_2.jpg" alt="" />
-            </div>
-            <header class="post-header">
-              <h3 class="post-title"></h3>
-            </header>
-          </a><!-- .post-link -->
-        </article><!-- .post -->
-
-        <article class="post project">
-          <a href="#" class="post-link">
-            <div class="post-thumbnail">
-              <img class="thumbnail" src="/images/services_1.jpg" alt="" />
-            </div>
-            <header class="post-header">
-              <h3 class="post-title"></h3>
-            </header>
-          </a><!-- .post-link -->
-        </article><!-- .post -->
+        {% for image in page.images %}
+          <article class="post project">
+            <a href="{{ image }}" class="post-link">
+              <div class="post-thumbnail">
+                <img class="thumbnail" src="{{ image }}" alt="" />
+              </div>
+              <header class="post-header">
+                <h3 class="post-title"></h3>
+              </header>
+            </a><!-- .post-link -->
+          </article><!-- .post -->
+        {% endfor %}
 
       </div><!-- .portfolio-feed -->
     </div><!-- .block-content -->

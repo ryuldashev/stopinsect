@@ -15,8 +15,8 @@ header_subtitle: уничтожение насекомых в Ташкенте
 menu:
    - title: Услуги
      url: "#services"
-   - title: Преимущества
-     url: "#profs"
+   - title: Цены
+     url: "/prices"
    - title: +998 (90) 950-78-16
      url: "tel:+998909507816"
 footer_content: © StopInsect.uz — уничтожение насекомых
