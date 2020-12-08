@@ -14,6 +14,10 @@
       {% endif %}
 
       <div class="block-content">
+        {% if include.image %}
+          <img src="{{ include.image }}" alt="" style="margin-bottom: 1em;">
+        {% endif%}
+
         <div class="services-list">
           {% for service in include.services %}
           <div class="service">
@@ -25,10 +29,6 @@
           </div><!-- .service -->
           {% endfor %}
         </div><!-- .services-list -->
-
-        {% if include.image %}
-          <img src="{{ include.image }}" alt="">
-        {% endif%}
 
         {% if include.text %}
           {{ include.text|markdownify }}
