@@ -23,17 +23,42 @@ layout: body
         text=page.guarantie
 %}
 
-<section id="{{ include.section.section_id }}" class="block text-block outer">
+<hr style="margin: 0">
+
+<section class="block services-block outer">
         <div class="inner">
-                <div class="block-header">
-                        <h2 class="block-title">Как мы работаем</h2>
-                </div><!-- .block-header -->
-                <div class="block-content">
-                        <div class="block-copy">
-                                <img src="/images/mindmap.jpg" style="max-width: 95%" alt="">
-                        </div>
+                <div class="block-inside">
+                        <div class="block-header">
+                                <h2 class="block-title line-top">Инструктаж до дезинсекции</h2>
+                                <p class="block-subtitle">
+                                        <ol>
+                                                <li>Рекомендуется освободить кухонные шкафы от продуктов, специй,
+                                                лекарств и при возможности убрать посуду или оставить и помыть её после обработки</li>
+
+                                                <li>Из ванной комнаты убрать все вещи личной гигиены, зубные щетки, бритвенные станки,
+                                                        полотенца, ватные палочки и т.д.</li>
+
+                                                <li>Все края комнат желательно освободить.</li>
+
+                                                <li>Обработка занимает 30 минут.</li>
+
+                                                <li>После закрыть помещение на 4 часа.</li>
+
+                                                <li>Затем проветрить в течении 2 часов.</li>
+
+                                        </ol>
+                                </p>
+                        </div><!-- .block-header -->
+                        <div class="block-content">
+                                <div style="text-align: center">
+                                        <img src="/images/mindmap.jpg" style="max-width: 75%" align="center" alt="">
+                                </div>
+                                <blockquote>Режим работы с 8:00 до 00:00 без выходных</blockquote>
+                        </div><!-- .block-content -->
+                </div><!-- .block-inside -->
         </div><!-- .inner -->
 </section><!-- .block -->
+
 
 
 {% include contact_block.html page=page site=site %}
