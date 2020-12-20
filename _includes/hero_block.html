@@ -5,10 +5,13 @@
     </div><!-- .block-header -->
     <div class="block-content">
       <div class="block-copy">
-        <div class="image-photo">
+        <div class="image-photo float-right">
           <img src="/images/photo.jpg" alt="">
         </div>
         {{ page.hero_content | markdownify }}
+        <small>
+          {{ page.hero_content_small | markdownify }}
+        </small>
       </div>
     </div><!-- .block-content -->
     <div class="block-buttons inner-sm">

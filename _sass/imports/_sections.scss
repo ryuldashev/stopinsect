@@ -55,6 +55,24 @@
   .block-content {
     color: _palette(secondary);
   }
+
+  .image-photo {
+    float: right;
+    width: 10vw;
+    margin-top: -1.5rem;
+    margin-right: -1rem;
+    margin-left: 1.5rem;
+  }
+  .image-photo img {
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 100%;
+    max-width: 100%;
+  }
+
+  blockquote {
+    margin: 1rem 0;
+  }
 }
 
 /* Latest posts */

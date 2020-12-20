@@ -2,6 +2,11 @@
  * Content
  * ----------------------------------------------------------------------------
  */
+.highlight {
+  background: _palette(accent-yellow);
+  padding: 0 3px;
+}
+
 .post {
   margin-bottom: 3.33333em;
 }
@@ -61,18 +66,6 @@
   }
 }
 
-.image-photo {
-  float: left;
-  width: 10vw;
-  margin-right: 1.5rem;
-}
-.image-photo img {
-  border: 1px solid #999;
-  padding: 5px;
-  border-radius: 100%;
-  max-width: 100%;
-}
-
 
 @media only screen and (min-width: 801px) {
   .post {
@@ -91,6 +84,7 @@
     }
   }
 }
+
 
 /* Portfolio */
 .page-header + .portfolio-feed {

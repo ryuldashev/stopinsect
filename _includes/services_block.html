@@ -7,7 +7,7 @@
           <h2 class="block-title line-top">{{ include.title }}</h2>
           {% if include.subtitle %}
             <p class="block-subtitle">
-              {{ include.subtitle }}
+              {{ include.subtitle | markdownify }}
             </p>
           {% endif %}
         </div><!-- .block-header -->
